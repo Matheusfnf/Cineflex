@@ -104,6 +104,7 @@ export default function EscolhaDeAssento() {
         cpf: cpf,
         assento: id,
       };
+      console.log(response)
       setCookie("user", userObj, { path: "/" });
       if (response.status == 200) {
         navigate(`/sucesso/${id}/${img.title}/${hora}`);
