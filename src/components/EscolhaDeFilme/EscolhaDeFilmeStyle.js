@@ -5,21 +5,25 @@ export const FilmeContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+
+  img{
+  width:129px;
+  height:193px;
+  margin: 34px;
+}
+
 `;
 
-export const EscolhaFilme = styled.div`
-  width: 129px;
-  height: 193px;
-  background-color: gray;
-  margin: 38px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
+
+
+
+
 
 export const Titulo = styled.div`
   h2 {
     font-size: 24px;
     font-weight: 400;
+    text-align: center;
+    
   }
 `;
