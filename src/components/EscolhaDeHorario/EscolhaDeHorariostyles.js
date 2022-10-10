@@ -74,20 +74,16 @@ margin-top: 10px;
 img{
     width: 48px;
     height: 72px;
-    margin-right: 18px;
+    margin-right: 23px;
     margin-left: 10px;
+    margin-top: 10px;
+    border: 8px solid white;
 }
-
 h1{
     font-size: 26px;
     color: #293845;
     font-weight: 400;
     margin-left: 10px;
-}
-p{
-  
-  margin: 10px;
-  font-size: 20px;
 }
 
 

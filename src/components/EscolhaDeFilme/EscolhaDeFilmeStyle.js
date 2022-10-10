@@ -10,6 +10,7 @@ export const FilmeContainer = styled.div`
   width:129px;
   height:193px;
   margin: 34px;
+  border: 8px solid white;
 }
 
 `;

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FilmeSelecionado } from "../EscolhaDeHorario/EscolhaDeHorariostyles";
+
 import {
   AssentosStyled,
   Container,
@@ -7,7 +7,10 @@ import {
   ContainerIndisponivel,
   ContainerSelecionado,
   Directionul,
+  FilmeSelecionado,
   HoraEDia,
+  ImagemEtitulo,
+  ParagrafoEHora,
   Titulo,
 } from "./EscolhaDeAssentostyles";
 import { Inputstyled } from "./EscolhaDeAssentostyles";
@@ -176,8 +179,8 @@ export default function EscolhaDeAssento() {
       </ReservarStyled>
 
       <FilmeSelecionado>
-        <img src={img?.posterURL} /> <h1>{img?.title} - </h1>  <p>{hora}</p> {" "}-
-        <p>{dia}</p>
+       <ImagemEtitulo> <img src={img?.posterURL} /> <h1> {img?.title} </h1> </ImagemEtitulo>
+         <ParagrafoEHora>  <p>{dia}</p>  <p>{hora}</p></ParagrafoEHora>
       </FilmeSelecionado>
     </>
   );

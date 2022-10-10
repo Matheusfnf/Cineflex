@@ -124,3 +124,71 @@ flex-direction: row;
 
 
 `
+
+export const FilmeSelecionado = styled.div`
+
+background-color: #DFE6ED;
+width: 100%;
+height: 117px;
+position: fixed;
+bottom: 0;
+margin-top: 10px;
+
+img{
+    width: 48px;
+    height: 72px;
+    margin-right: 18px;
+    margin-left: 10px;
+}
+
+h1{
+    
+    color: #293845;
+    
+    margin-left: 10px;
+}
+p{
+  
+  margin: 10px;
+  font-size: 20px;
+}
+
+`
+
+export const ImagemEtitulo = styled.div`
+
+display: flex;
+justify-content: start;
+align-items: center;
+
+img{
+    width: 48px;
+    height: 72px;
+    margin-right: 23px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 8px solid white;
+}
+h1{
+    font-size: 26px;
+    color: #293845;
+    font-weight: 400;
+    margin-left: 10px;
+}
+`
+
+export const ParagrafoEHora = styled.div`
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+p{
+  font-size: 26px;
+ margin-top: -20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #293845;
+}
+
+`
